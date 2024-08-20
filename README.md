@@ -1,1 +1,1 @@
-# dotnet-phx-demo
+# Shipment PHX GraphQL Demo
