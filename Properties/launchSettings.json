@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "phx shipment demo": {
+      "commandName": "Project"
+    }
+  }
+}

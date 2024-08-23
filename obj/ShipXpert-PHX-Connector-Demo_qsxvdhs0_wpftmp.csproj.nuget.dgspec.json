@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\ShipXpert\\shipxpert-connector-demo\\ShipXpert-PHX-Connector-Demo\\ShipXpert-PHX-Connector-Demo.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\ShipXpert\\shipxpert-connector-demo\\ShipXpert-PHX-Connector-Demo\\ShipXpert-PHX-Connector-Demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\ShipXpert\\shipxpert-connector-demo\\ShipXpert-PHX-Connector-Demo\\ShipXpert-PHX-Connector-Demo.csproj",
+        "projectName": "ShipXpert-PHX-Connector-Demo",
+        "projectPath": "C:\\dev\\ShipXpert\\shipxpert-connector-demo\\ShipXpert-PHX-Connector-Demo\\ShipXpert-PHX-Connector-Demo.csproj",
+        "packagesPath": "C:\\Users\\dennx\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\ShipXpert\\shipxpert-connector-demo\\ShipXpert-PHX-Connector-Demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dennx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "GraphQL.Client.Serializer.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "GraphQL.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
